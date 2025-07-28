@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  position: sticky;
+  font-family: 'Lobster', cursive;
+  top: 0;
+  z-index: 999;
+  background-color: #04a3ed; /* bleu clair */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.nav-brand a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  align-items: center;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.btn {
+  background-color: white;
+  border: 2px solid white;
+  width: 65px;
+  height: 35px;
+  border-radius: 30px;
+  color: black;
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-button {
+  padding: 8px 16px;
+  background-color: white;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #eee;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: 'Lobster', cursive;
+}
+.hero {
+  height: 70vh;
+  background-image: url('assets/images/image-header.jpg');
+  background: #04a3ed; /* bleu clair */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+.cta-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #f4f7f8;
+}
